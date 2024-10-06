@@ -1,23 +1,23 @@
 import styled from 'styled-components';
 
-import BookingDataBox from './BookingDataBox';
-import Row from '../../ui/Row';
-import Heading from '../../ui/Heading';
-import Tag from '../../ui/Tag';
-import ButtonGroup from '../../ui/ButtonGroup';
 import Button from '../../ui/Button';
+import ButtonGroup from '../../ui/ButtonGroup';
 import ButtonText from '../../ui/ButtonText';
+import Heading from '../../ui/Heading';
+import Row from '../../ui/Row';
+import Tag from '../../ui/Tag';
+import BookingDataBox from './BookingDataBox';
 
-import { useMoveBack } from '../../hooks/useMoveBack';
-import Spinner from '../../ui/Spinner';
-import { useBooking } from './useBooking';
-import { useNavigate } from 'react-router-dom';
 import { HiArrowUpOnSquare } from 'react-icons/hi2';
-import { useCheckout } from '../check-in-out/useCheckout';
-import Modal from '../../ui/Modal';
+import { useNavigate } from 'react-router-dom';
+import { useMoveBack } from '../../hooks/useMoveBack';
 import ConfirmDelete from '../../ui/ConfirmDelete';
-import { useDeleteBooking } from './useDeleteBooking';
 import Empty from '../../ui/Empty';
+import Modal from '../../ui/Modal';
+import Spinner from '../../ui/Spinner';
+import { useCheckout } from '../check-in-out/useCheckout';
+import { useBooking } from './useBooking';
+import { useDeleteBooking } from './useDeleteBooking';
 
 const HeadingGroup = styled.div`
   display: flex;
